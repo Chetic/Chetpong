@@ -3,7 +3,7 @@ project(Pong)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES main.cpp loadShaders.cpp)
 add_executable(Pong ${SOURCE_FILES})
 
 find_package(OpenGL REQUIRED)
